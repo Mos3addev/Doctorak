@@ -132,7 +132,7 @@ export default function Home({ userData }) {
                           <div className="speicality-item d-flex row justify-content-center">
                             <div className="speicality-img">
                               <img
-                                src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${spec.specID}`}
+                                src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${spec.specID}`}
                                 className="img-fluid"
                                 alt="Speciality"
                               />
@@ -181,7 +181,7 @@ export default function Home({ userData }) {
                               <img
                                 className="img-fluid"
                                 alt="User Image"
-                                src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${doctor.user.id}`}
+                                src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${doctor.user.id}`}
                               />
                             </Link>
                             {userData ? (
@@ -211,7 +211,7 @@ export default function Home({ userData }) {
                                 <p className="doc-department">
                                   <img
                                     className="img-dentist"
-                                    src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
+                                    src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
                                     alt={
                                       doctor.specialization.specializationName
                                     }

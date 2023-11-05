@@ -73,7 +73,7 @@ export default function Booking() {
                     <div className="col-md-4 mb-2">
                       <img
                         className="w-100 rounded-2"
-                        src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${profileDoctor.doctor.user.id}`}
+                        src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${profileDoctor.doctor.user.id}`}
                       />
                     </div>
                     <div className="col-8">
@@ -84,7 +84,7 @@ export default function Booking() {
                       <p className="doc-department">
                         <img
                           className="img-dentist"
-                          src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${profileDoctor.spec.specID}`}
+                          src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${profileDoctor.spec.specID}`}
                           alt={
                             profileDoctor.doctor.specialization
                               .specializationName

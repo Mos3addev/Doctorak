@@ -58,11 +58,11 @@ export default function ProfileDoctor({userData}) {
             <div className='col-md-6 col-sm-12 me-auto'>
               <div className='row'>
                 <div className='col-md-4 mb-2'>
-                  <img className='w-100 rounded-2' src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${profileDoctor.doctor.user.id}`} /></div>
+                  <img className='w-100 rounded-2' src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${profileDoctor.doctor.user.id}`} /></div>
                 <div className='col-8'>
                   <h4 className='doctor-name'>Dr.{profileDoctor.doctor.user.firstName} {profileDoctor.doctor.user.lastName}</h4>
                   <p className='doc-department'>
-					<img className='img-dentist' src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${profileDoctor.spec.specID}`} alt={profileDoctor.doctor.specialization.specializationName} />{profileDoctor.doctor.specialization.specializationName}
+					<img className='img-dentist' src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${profileDoctor.spec.specID}`} alt={profileDoctor.doctor.specialization.specializationName} />{profileDoctor.doctor.specialization.specializationName}
 					</p>
                   <div className='doc-location'>
                     <i className='fas fa-map-marker-alt'></i> {profileDoctor.doctor.user.address}

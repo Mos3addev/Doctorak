@@ -80,7 +80,7 @@ export default function ChatContentDoctor() {
               <div className="media">
                   <div className="media-img-wrap">
                       <div className="avatar avatar-online">
-                          <img src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${receiverData.id}`} alt="User Image" className="avatar-img rounded-circle"/>
+                          <img src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${receiverData.id}`} alt="User Image" className="avatar-img rounded-circle"/>
                       </div>
                   </div>
                   <div className="media-body">

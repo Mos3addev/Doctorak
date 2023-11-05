@@ -25,7 +25,7 @@ if(userData.role==='Patient'){
 				<div className="profile-widget">
 					<div className="doc-img">
 					<Link to={/profileDoctor/+fav.doctorID}>
-						<img className="img-fluid" alt="User Image" src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${fav.doctor.user.id}`}/>
+						<img className="img-fluid" alt="User Image" src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${fav.doctor.user.id}`}/>
 					</Link>
 					<button value={fav.doctorID} className="fav-btn" onClick={() => handleRemoveFavorite(fav.doctorID)}>-</button>
 					</div>

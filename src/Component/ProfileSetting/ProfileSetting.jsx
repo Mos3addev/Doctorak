@@ -46,7 +46,7 @@ export default function ProfileSetting({userData}) {
                 <div className="form-group">
                   <div className="change-avatar">
                     <div className="profile-img">
-                      <img src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${userData.nameid}`} alt="User Image"/>
+                      <img src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${userData.nameid}`} alt="User Image"/>
                     </div>
                     <div className="upload-img">
                       <div className="change-photo-btn">

@@ -29,7 +29,7 @@ export default function ChatPatient() {
                                         <Link to={`doctor/${item.id}`} className={`media read-chat ${item.id=== id ? 'active' :''} d-flex align-items-center`} key={item.id}>
                                             <div className="media-img-wrap">
                                                 <div className="avatar avatar-online">
-                                                    <img src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${item.id}`} alt="User Image" className="avatar-img rounded-circle"/>
+                                                    <img src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${item.id}`} alt="User Image" className="avatar-img rounded-circle"/>
                                                 </div>
                                             </div>
                                             <div className="media-body">

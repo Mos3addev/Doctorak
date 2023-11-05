@@ -102,7 +102,7 @@ export default function Search({ userData }) {
                   >
                     <img
                       className="w-100 rounded-2"
-                      src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${doctor.user.id}`}
+                      src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${doctor.user.id}`}
                     />
                   </Link>
                   <div className="col-8">
@@ -115,7 +115,7 @@ export default function Search({ userData }) {
                     <p className="doc-department">
                       <img
                         className="img-dentist"
-                        src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
+                        src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
                         alt={doctor.specialization.specializationName}
                       />
                       {doctor.specialization.specializationName}
@@ -187,7 +187,7 @@ export default function Search({ userData }) {
                   >
                     <img
                       className="w-100 rounded-2"
-                      src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${doctor.user.id}`}
+                      src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${doctor.user.id}`}
                     />
                   </Link>
                   <div className="col-8">
@@ -200,7 +200,7 @@ export default function Search({ userData }) {
                     <p className="doc-department">
                       <img
                         className="img-dentist"
-                        src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
+                        src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${doctor.specializationSpecID}`}
                         alt={doctor.specialization.specializationName}
                       />
                       {doctor.specialization.specializationName}

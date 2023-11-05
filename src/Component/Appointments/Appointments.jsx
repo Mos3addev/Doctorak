@@ -18,7 +18,7 @@ export default function Appointments() {
                 <div key={app.appointmentID} className="appointment-list">
                     <div className="profile-info-widget">
                         <div className="booking-doc-img">
-                            <img src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${app.doctor.user.id}`} alt="User Image"/>
+                            <img src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${app.doctor.user.id}`} alt="User Image"/>
                         </div>
                         <div className="profile-det-info ps-2">
                             <h3>{app.user.firstName} {app.user.lastName}</h3>

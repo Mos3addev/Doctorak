@@ -76,7 +76,7 @@ export default function MedicalQuestions() {
                     <p className="doc-department" name={item.specializationSpecID}>
                       <img
                         className="img-dentist"
-                        src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${item.specializationSpecID}`}
+                        src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${item.specializationSpecID}`}
                         alt=""
                       />
                       {item.specialization.specializationName}
@@ -122,7 +122,7 @@ export default function MedicalQuestions() {
                   <p className="doc-department" name={item.specializationSpecID}>
                     <img
                       className="img-dentist"
-                      src={`https://healthcaresys.azurewebsites.net/api/Admin/ViewSpecPicture?id=${item.specializationSpecID}`}
+                      src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${item.specializationSpecID}`}
                       alt=""
                     />
                     {item.specialization.specializationName}

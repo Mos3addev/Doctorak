@@ -46,7 +46,7 @@ export default function Patient({logOut}) {
               <div className="widget-profile pro-widget-content">
                 <div className="profile-info-widget">
                   <a href="" className="booking-doc-img">
-                    <img src={`https://healthcaresys.azurewebsites.net/api/Users/GetProfilePic?id=${userData.nameid}`} alt="User Image"/>
+                    <img src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${userData.nameid}`} alt="User Image"/>
                   </a>
                   <div className="profile-det-info">
                     <h3>{userData.FirstName} {userData.LastName}</h3>
