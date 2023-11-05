@@ -135,7 +135,7 @@ export default function Home({ userData }) {
                               <img
                                 src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${spec.specID}`}
                                 className="img-fluid"
-                                alt="Speciality"
+                                alt={spec.specializationName}
                               />
                               <span>
                                 <i
