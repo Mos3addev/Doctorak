@@ -12,6 +12,7 @@ import axios from "axios";
 import { useContext } from "react";
 import { context } from "../../Context/Context";
 
+
 export default function Home({ userData }) {
   let { spec, doctors } = useContext(context);
   const navigate = useNavigate();
