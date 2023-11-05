@@ -1,0 +1,32 @@
+.dropdown-content {
+    display: flex;
+    text-align: center;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+    width: 75%;
+  }
+.dropdown-content label span{
+    margin-inline-start: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(91, 91, 91);
+}
+.forms-container {
+    width: 100%;
+}
+.card-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.title-characters-count{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(156, 156, 156);
+    padding-top:5px ;
+    padding-bottom:20px ;
+}
+

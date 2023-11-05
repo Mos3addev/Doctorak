@@ -1,0 +1,193 @@
+.breadcrumb-bar {
+    background-color: #15558d;
+    width: 100%;
+    padding: 15px 0;
+}
+.breadcrumb-bar .breadcrumb-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 5px 0 0;
+}
+.page-breadcrumb ol {
+    background-color: transparent;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.page-breadcrumb ol li a {
+    color: #fff;
+}
+.page-breadcrumb ol li.active {
+    color: #fff;
+}
+.page-breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+	color: #fff;
+	font-size: 10px;
+}
+
+
+.card{
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0,0.125);
+}
+.img-dentist{
+    width: 19px;
+}
+.doc-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.doc-speciality{
+    font-size: 14px;
+    color: var(--forth-color);
+    margin-bottom: 15px;
+}
+.doc-department{
+    color: var(--main-color);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.doc-location{
+    color: var(--forth-color);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.doc-info-right {
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    max-width: 200px;
+}
+.clini-infos {
+    margin-bottom: 15px;
+}
+.clini-infos ul {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clini-infos ul li {
+    display: block;
+    line-height: 30px;
+    color: #4E4852;
+}
+.clini-infos ul li i {
+    font-size: 15px;
+    min-width: 30px;
+}
+.clinic-booking a + a {
+	margin-top: 15px;
+}
+.clinic-booking a {
+    background-color: #fff;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    color: var(--main-color);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.clinic-booking a.view-pro-btn:hover, .clinic-booking a.view-pro-btn:focus {
+	background: var(--main-color); 
+	color: #fff;
+}
+.clinic-booking a.apt-btn {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.clinic-booking a.apt-btn:hover, .clinic-booking a.apt-btn:focus {
+	background-color: var(--main-color);
+	border-color: var(--main-color);
+	color: #fff;
+}
+
+.doctor-action {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.doctor-action a {
+    border-color: rgba(0, 0, 0,0.125);
+}
+.doctor-action .fav-btn:hover {
+	background-color: #fb1612;
+	border-color: #ff322f;
+	color: #fff;
+}
+.msg-btn:hover, .msg-btn:focus {
+	background-color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	color: #fff;
+}
+
+.businessHours{
+    color: var(--main-color);
+}
+.business-widget {
+    background-color: #fcfcfc;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.listing-day {
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    margin-bottom: 10px;
+}
+.listing-day .day {
+    font-weight: 500;
+}
+.time-items {
+    color: var(--forth-color);
+}
+.listing-day.current {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+}
+.listing-day.current .day {
+    font-weight: bold;
+}
+.time-items > span {
+    display: block;
+    text-align: right;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.fav-btn-active{
+    background-color: #fb1612;
+	border-color: #ff322f;
+	color: #fff;
+}

@@ -1,0 +1,192 @@
+
+.change-avatar {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.change-avatar .profile-img {
+	margin-right: 15px;
+}
+.change-avatar .profile-img img {
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.change-avatar .change-photo-btn {
+    margin: 0 0 10px;
+    width: 150px;
+}
+.widget-profile.pat-widget-profile .profile-info-widget .booking-doc-img {
+	padding: 0;
+}
+.widget-profile.pat-widget-profile .profile-info-widget .booking-doc-img img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.unread-msg {
+    background-color: #09e5ab;
+    border-radius: 2px;
+    color: #272b41;
+    font-size: 10px;
+    font-style: normal;
+    padding: 0 5px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.theiaStickySidebar {
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+.profile-sidebar {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.widget-profile {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.pro-widget-content {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.widget-profile .profile-info-widget {
+    display: block;
+    text-align: center;
+}
+.widget-profile .profile-info-widget .booking-doc-img {
+    display: inline-block;
+    margin: 0 0 15px;
+    width: auto;
+    padding: 8px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+.widget-profile .profile-info-widget .booking-doc-img img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.profile-det-info {
+    overflow: hidden;
+}
+.profile-det-info h3 {
+    font-size: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.patient-details h5 {
+    color: #757575;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.patient-details h5 i {
+    width: 18px;
+}
+.fa-birthday-cake:before {
+    content: "\f1fd";
+}
+.dashboard-menu ul {
+    color: #757575;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.dashboard-menu > ul > li {
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+.dashboard-menu > ul > li > a {
+    color: #757575;
+    display: block;
+    padding: 16px 20px;
+}
+.dashboard-menu ul li a i {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 16px;
+}
+.dashboard-menu ul li a span, .dashboard-menu ul li a i {
+    display: inline-block;
+    vertical-align: middle;
+}
+.dashboard-menu > ul > li:hover > a, .dashboard-menu > ul > li.active > a {
+    color: #0de0fe;
+}
+.form-group {
+    margin-bottom: 1.25rem;
+}
+.change-avatar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.change-avatar .profile-img {
+    margin-right: 15px;
+}
+.change-avatar .profile-img img {
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.change-avatar .change-photo-btn {
+    margin: 0 0 10px;
+    width: 150px;
+}
+.change-photo-btn {
+    background-color: #20c0f3;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 15px;
+    position: relative;
+    transition: .3s;
+    text-align: center;
+    width: 220px;
+}
+.change-photo-btn input.upload {
+    bottom: 0;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 220px;
+}
