@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Doctorak/static/css/main.c5c734ef.css",
-    "main.js": "/Doctorak/static/js/main.d3eb2cbe.js",
+    "main.js": "/Doctorak/static/js/main.63d83648.js",
     "static/js/787.e2c76fde.chunk.js": "/Doctorak/static/js/787.e2c76fde.chunk.js",
     "static/media/fa-solid-900.ttf": "/Doctorak/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/Doctorak/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -21,11 +21,11 @@
     "static/media/fa-v4compatibility.woff2": "/Doctorak/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Doctorak/index.html",
     "main.c5c734ef.css.map": "/Doctorak/static/css/main.c5c734ef.css.map",
-    "main.d3eb2cbe.js.map": "/Doctorak/static/js/main.d3eb2cbe.js.map",
+    "main.63d83648.js.map": "/Doctorak/static/js/main.63d83648.js.map",
     "787.e2c76fde.chunk.js.map": "/Doctorak/static/js/787.e2c76fde.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5c734ef.css",
-    "static/js/main.d3eb2cbe.js"
+    "static/js/main.63d83648.js"
   ]
 }
