@@ -191,3 +191,10 @@
 	border-color: #ff322f;
 	color: #fff;
 }
+.profile-details-img{
+    height: 150px;
+    width: 150px;
+}
+.profile-details-img img{
+    height: 100%;
+}

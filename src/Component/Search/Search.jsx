@@ -98,7 +98,7 @@ export default function Search({ userData }) {
                 <div className="row">
                   <Link
                     to={'/profileDoctor/' + doctor.doctorID}
-                    className="col-md-4 mb-2"
+                    className="col-md-4 mb-2 profile-search-img"
                   >
                     <img
                       className="w-100 rounded-2"

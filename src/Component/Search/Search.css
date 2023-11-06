@@ -342,3 +342,11 @@
 .load-more {
 	margin-bottom: 30px;
 }
+.profile-search-img{
+	width: 120px;
+    height: 120px;
+}
+.profile-search-img img{
+	height: 100%;
+	width: 100%;
+}

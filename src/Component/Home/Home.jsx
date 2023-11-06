@@ -385,10 +385,10 @@ export default function Home({ userData }) {
                     Questions
                   </Link>
                 </div>
-                <div className="col-6 px-3 py-2">
+                <div className="col-6  px-3 py-2">
                   <Link
                     to="/askDoctor"
-                    className="btn book-btn px-4 py-3"
+                    className="btn book-btn px-2 py-3"
                     tabIndex="-1"
                   >
                     Ask now

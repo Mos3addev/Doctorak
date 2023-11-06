@@ -57,7 +57,7 @@ export default function ProfileDoctor({userData}) {
 		  <div className='d-md-flex '>
             <div className='col-md-6 col-sm-12 me-auto'>
               <div className='row'>
-                <div className='col-md-4 mb-2'>
+                <div className='col-md-4 mb-2 profile-details-img'>
                   <img className='w-100 rounded-2' src={`${process.env.REACT_APP_URL_SITE}api/Users/GetProfilePic?id=${profileDoctor.doctor.user.id}`} /></div>
                 <div className='col-8'>
                   <h4 className='doctor-name'>Dr.{profileDoctor.doctor.user.firstName} {profileDoctor.doctor.user.lastName}</h4>
