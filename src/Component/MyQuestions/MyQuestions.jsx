@@ -33,7 +33,7 @@ export default function MyQuestions() {
                 <img
                   className="img-dentist"
                   src={`${process.env.REACT_APP_URL_SITE}api/Admin/ViewSpecPicture?id=${item.specializationSpecID}`}
-                  alt=""
+                  alt={`${item.specialization.specializationName}`}
                 />
                 {item.specialization.specializationName}
               </p>

@@ -362,7 +362,7 @@ export default function Home({ userData }) {
           <div className="row bg-white rounded-3 py-5 mx-5">
             <div className="col-md-2 justify-content-center align-items-center d-flex">
               <div className="ask-img">
-                <img src={require("../../Images/AskDoctor.jpg")} alt="" />
+                <img src={require("../../Images/AskDoctor.jpg")} alt="Ask Doctor" />
               </div>
             </div>
             <div className="col-md-7 pt-3 justify-content-center align-items-center d-flex">
